@@ -80,7 +80,7 @@ quizForm.addEventListener('submit', function(event) {
 	}else{
 		if(q2<=1){
 			if(q3<=1){
-				resultDiv.innerHTML = `<p id="rideSug"><a href="vrideBOARD.html">Try a virtual test ride on our Evolve Boards!</a>
+				resultDiv.innerHTML = `<p id="rideSug"><a href="vrideEVOLVE.html">Try a virtual test ride on our Evolve Boards!</a>
 					<a style = "margin-left: 2em" href="boardSpecs.html" target="_blank">What are the Specs?</a></p>`;
 				viewer.style.top = '25%';
 				viewer.style.transform = 'translate(-50%,-25%)';
