@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  	<head>
+		<meta charset="utf-8">
+		<title>Last Mile NYC</title>
+		<link rel="stylesheet" href="style.css">
+  	</head>
+	<body>
+		<div class="layout">
+			<div class="video" id="viewer" style="position:absolute;top:15%;left: 50%;transform: translate(-50%,-15%);">
+				<h1 style="text-align:center;font-weight: 600;">WHICH EV IS THE BEST CHOICE FOR YOU?</h1>
+				 <iframe id="YT" width="853" height="480" src="https://www.youtube.com/embed/beHWQykQxmk?enablejsapi=1&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; jsapi; web-share" enablejsapi="1" allowfullscreen></iframe>
+			</div>
+			<div id="dialogue" style="position:absolute; bottom:5%;left: 50%;transform: translateX(-50%);margin-bottom: 1%">
+				<form id="quiz-form" >
+						<div class="question-group">
+								<p>Are you going to use it for commuting or just for fun?</p>
+								<label><input type="radio" name="q1" value="0"> Commuting</label>
+								<label><input type="radio" name="q1" value="1"> Just for Fun</label>
+						</div>
+					
+						<div class="question-group">
+								<p>How fast do you want to go?</p>
+								<label><input type="radio" name="q2" value="0"> Around 20MPH</label>
+								<label><input type="radio" name="q2" value="1"> Around 30MPH</label>
+								<label><input type="radio" name="q2" value="2"> More than 30MPH</label>
+						</div>
+					
+						<div class="question-group">
+								<p>How many miles are you planning to travel per day?</p>
+								<label><input type="radio" name="q3" value="0"> Less than 5mi</label>
+								<label><input type="radio" name="q3" value="1"> 5-10mi</label>
+								<label><input type="radio" name="q3" value="2"> 10-15mi</label>
+								<label><input type="radio" name="q3" value="3"> More than 15mi</label>
+						</div>
+
+
+				  <button id="submitButton" type="submit"> Submit </button>
+				</form>
+				<div id="result"></div>
+			</div>
+		</div>
+		<script src="general.js"></script>
+  	</body>
+</html>

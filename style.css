@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	overflow:hidden;
+	background-image: url("assets/background.jpg");
+	background-position:top;
+	background-color:#fff;
+	background-clip:padding-box;
+}
+
+*{
+	font-family: Poppins,sans-serif;
+	font-weight: 200;
+    line-height: 1.5;
+	color: black;
+}
+p#rideSug{
+	text-align: center;
+}
+a{
+	color:black;
+}
+
+ul{
+	list-style: none;
+	display: inline-flex;
+}
+li{
+	margin-right: 2em;
+}
+
+
+.layout{
+	display:grid;
+	grid:
+		'... video ...'
+		'... dialogue ...'
+}
+
+.video { grid-area: video; }
+.dialogue { grid-area: dialogue; }
+
+.question-group {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      
+.question-group label {
+        margin-left: 10px;
+      }
