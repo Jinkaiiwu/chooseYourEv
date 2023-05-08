@@ -56,7 +56,7 @@ quizForm.addEventListener('submit', function(event) {
 				questions.style.bottom = '10%';
 				submit.style.display = 'none';
 				quizForm.style.display = 'none';
-				viewer.innerHTML = '<iframe width="1080" height="625" src="https://www.youtube.com/embed/Pmn424LDG9U?autoplay=1&controls=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+				viewer.innerHTML = '<iframe width="1080" height="625" src="https://www.youtube.com/embed/Pmn424LDG9U?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
 			}else{
 				resultDiv.innerHTML = `<p id="rideSug"><a href="vrideSUPER.html">Try a virtual test ride on our Super!</a>
 					<a style = "margin-left: 2em" href="superSpecs.html" target="_blank">What are the Specs?</a></p>`;
@@ -65,7 +65,7 @@ quizForm.addEventListener('submit', function(event) {
 				questions.style.bottom = '10%';
 				submit.style.display = 'none';
 				quizForm.style.display = 'none';
-				viewer.innerHTML = '<iframe width="1080" height="625" src="https://www.youtube.com/embed/iM1Z69d4z3k?autoplay=1&controls=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+				viewer.innerHTML = '<iframe width="1080" height="625" src="https://www.youtube.com/embed/iM1Z69d4z3k?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
 			}
 		}else if(q2==2){
 				resultDiv.innerHTML = `<p id="rideSug"><a href="vrideONYX.html">Try a virtual test ride on our ONYX!</a>
@@ -75,7 +75,7 @@ quizForm.addEventListener('submit', function(event) {
 				questions.style.bottom = '10%';
 				submit.style.display = 'none';
 				quizForm.style.display = 'none';
-				viewer.innerHTML = '<iframe width="1080" height="625" src="https://www.youtube.com/embed/fn_WQRdtZ2w?autoplay=1&controls=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+				viewer.innerHTML = '<iframe width="1080" height="625" src="https://www.youtube.com/embed/fn_WQRdtZ2w?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
 		}
 	}else{
 		if(q2<=1){
@@ -87,7 +87,7 @@ quizForm.addEventListener('submit', function(event) {
 				questions.style.bottom = '10%';
 				submit.style.display = 'none';
 				quizForm.style.display = 'none';
-				viewer.innerHTML = '<iframe width="1080" height="625" src="https://www.youtube.com/embed/tZ81QVbQ008?autoplay=1&controls=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+				viewer.innerHTML = '<iframe width="1080" height="625" src="https://www.youtube.com/embed/tZ81QVbQ008?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
 			}else{
 				resultDiv.innerHTML = `<p id="rideSug"><a href="vrideSUPER.html">Try a virtual test ride on our Super!</a>
 					<a style = "margin-left: 2em" href="superSpecs.html" target="_blank">What are the Specs?</a></p>`;
@@ -96,7 +96,7 @@ quizForm.addEventListener('submit', function(event) {
 				questions.style.bottom = '10%';
 				submit.style.display = 'none';
 				quizForm.style.display = 'none';
-				viewer.innerHTML = '<iframe width="1080" height="625" src="https://www.youtube.com/embed/iM1Z69d4z3k?autoplay=1&controls=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+				viewer.innerHTML = '<iframe width="1080" height="625" src="https://www.youtube.com/embed/iM1Z69d4z3k?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
 			}
 		}else if(q2==2){
 				resultDiv.innerHTML = `<p id="rideSug"><a href="vrideONYX.html">Try a virtual test ride on our ONYX!</a>
@@ -106,7 +106,7 @@ quizForm.addEventListener('submit', function(event) {
 				questions.style.bottom = '10%';
 				submit.style.display = 'none';
 				quizForm.style.display = 'none';
-				viewer.innerHTML = '<iframe width="1080" height="625" src="https://www.youtube.com/embed/fn_WQRdtZ2w?autoplay=1&controls=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+				viewer.innerHTML = '<iframe width="1080" height="625" src="https://www.youtube.com/embed/fn_WQRdtZ2w?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
 		}
 	}
 });
